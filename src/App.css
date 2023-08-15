@@ -1,38 +1,108 @@
 .App {
-  text-align: center;
+    font-family: DancingScript;
+    display: flex;
+    background-color: #313E50;
+    border: 2px solid black;
+    padding: 0.5em;
+    width: 100%;
+    height: 1000px;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div {
+    width: 300px;
+    height: 200px;
+    background-color: #6C6F7F;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Content {
+    padding: 5% 0;
+    text-align: center;
+    color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.InputContent {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.Red {
+    font-size: 200%;
+    height: 60px;
+    color: red;
+    background-color: #455561;
+    border: 2px solid white;
+    padding: .5em;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Black {
+    font-size: 200%;
+    height: 60px;
+    color: black;
+    background-color: #455561;
+    border: 2px solid white;
+    padding: .5em;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
 }
+
+.Input {
+    color: black;
+    background-color: #455561;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.InputBorder {
+    border-radius: 5px;
+}
+
+.InputErrorValue{
+    width: 100px;
+    background-color: pink;
+    border-radius: 5px;
+    outline: none;
+    border-color: red;
+}
+
+.InputValue{
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Button {
+    font-size: 20px;
+    font-family: DancingScript;
+    border: 2px solid white;
+    padding: .5em;
+    background-color: #455561;
+    margin: 0 2px;
+    border-radius: 5px;
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: local('DancingScript'),
+    url('./fonts/Caprasimo-Regular.ttf') format('truetype');
+}
+
